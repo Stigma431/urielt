@@ -1,0 +1,36 @@
+.advantages-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .advantages-title {
+        font-size: 1.25vw;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .advantages-items {
+        width: 50.99vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .advantages-item {
+            display: flex;
+            flex-direction: column;
+            width: 17.29vw;
+            height: auto;
+            text-decoration: none;
+
+            .item-icon{
+                width: 4.32vw;
+                height: 4.32vw;
+            }
+            
+            .item-name {
+                
+            }
+        }
+    }
+}

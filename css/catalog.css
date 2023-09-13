@@ -1,0 +1,28 @@
+.advantages-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.advantages-container .advantages-title {
+  font-size: 1.25vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.advantages-container .advantages-items {
+  width: 50.99vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.advantages-container .advantages-items .advantages-item {
+  display: flex;
+  flex-direction: column;
+  width: 17.29vw;
+  height: auto;
+  text-decoration: none;
+}
+.advantages-container .advantages-items .advantages-item .item-icon {
+  width: 4.32vw;
+  height: 4.32vw;
+}/*# sourceMappingURL=catalog.css.map */
