@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 65px;
+        justify-content: space-between;
+        padding-top: 24.5px;
+        padding-bottom: 24.5px;
+
+        .form-title {
+            text-align: center;
+            font-size: 18px;
+        }
+        .form-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .annotation {
+                text-align: center;
+                padding-top: 14px;
+            }
+        } 
+    }
+
+    .form-image {
+        
+        img {
+            width: 676px;
+            height: auto;
+        }
+    }
+}
