@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -30,6 +33,14 @@
             font-size: 0.73vw;
         }
 
+        .form-control:focus {
+            color: var(--bs-body-color);
+            background-color: var(--bs-body-bg);
+            border-color: #86b7fe;
+            outline: 0;
+            box-shadow: 0 0 0 0.05vw rgba(13,110,253,.25);
+        }
+
         .form-button {
             display: flex;
             flex-direction: column;
@@ -41,12 +52,14 @@
                 background-color: #0D9B42;
                 color: #ffffff;
                 cursor: pointer;
+                font-size: 0.94vw;
                 outline: none;
                 border: none;
                 border-radius: 0.21vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                
             }
             .btn:hover {
                 background-color: #02bd4b;
@@ -102,6 +115,16 @@
                 width: 17.45vw * $coefficient;
                 height: 1.77vw * $coefficient;
                 font-size: 0.73vw * $coefficient;
+                border-radius: 0.21vw;
+                padding-left: 0.63vw * $coefficient;
+            }
+
+            .form-control:focus {
+                color: var(--bs-body-color);
+                background-color: var(--bs-body-bg);
+                border-color: #86b7fe;
+                outline: 0;
+                box-shadow: 0 0 0 0.05vw * $coefficient rgba(13,110,253,.25);
             }
     
             .form-button {
@@ -115,9 +138,10 @@
                     background-color: #0D9B42;
                     color: #ffffff;
                     cursor: pointer;
+                    font-size: 0.94vw * $coefficient;
                     outline: none;
                     border: none;
-                    border-radius: 0.21vw * $coefficient;
+                    border-radius: 0.21vw;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -178,6 +202,13 @@
                 width: 17.45vw * $coefficient;
                 height: 1.77vw * $coefficient;
                 font-size: 0.73vw * $coefficient;
+            }
+            .form-control:focus {
+                color: var(--bs-body-color);
+                background-color: var(--bs-body-bg);
+                border-color: #86b7fe;
+                outline: 0;
+                box-shadow: 0 0 0 0.05vw * $coefficient rgba(13,110,253,.25);
             }
     
             .form-button {
