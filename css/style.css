@@ -22,7 +22,7 @@ body {
   padding-top: 1.27vw;
   padding-bottom: 1.27vw;
 }
-.container .form-group legend {
+.container .form-group .legend {
   text-align: center;
   font-size: 0.94vw;
   color: #000000;
@@ -92,7 +92,7 @@ body {
     padding-top: 1.778vw;
     padding-bottom: 1.778vw;
   }
-  .container .form-group legend {
+  .container .form-group .legend {
     text-align: center;
     font-size: 1.316vw;
     color: #000000;
@@ -164,7 +164,7 @@ body {
     padding-top: 1.905vw;
     padding-bottom: 1.905vw;
   }
-  .container .form-group legend {
+  .container .form-group .legend {
     text-align: center;
     font-size: 1.41vw;
     color: #000000;
