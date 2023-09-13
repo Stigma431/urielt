@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="form-group">
-            <div class="form-title">Откликнуться на<br> вакансию риэлтора</div>
-            <div class="form-name"><input type="text" placeholder="Ваше имя*"></div>
-            <div class="form-phone"><input type="tel" placeholder="Телефон"></div>
-            <div class="form-mail"><input type="email" placeholder="E-mail"></div>
+            <legend>Откликнуться на<br> вакансию риэлтора</legend>
+            <input type="text" id="clientform-name" class="form-control" name="ClientForm[name]" placeholder="Ваше имя*" aria-required="true">
+            <input type="tel" id="clientform-phone" class="form-control" name="ClientForm[phone]" placeholder="Телефон" aria-required="true">
+            <input type="email" id="clientform-email" class="form-control" name="ClientForm[email]" placeholder="E-mail" aria-required="true">
             <div class="form-button">
-                <input type="button" value="Хочу работать здесь!">
+                <button type="submit" class="btn btn-block submit">Хочу работать здесь!</button>
                 <div class="annotation">Нажимая “Хочу работать здесь!”, ВЫ соглашаетесь<br>
                     с политикой обработки персональных данных.</div>
             </div>
@@ -22,4 +26,5 @@
         <div class="form-image"><img src="images/Photo.png" alt="Фотка на форму"></div>
     </div>
 </body>
+
 </html>

@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 60.94vw;
+  padding-right: 0.78vw;
+  padding-left: 0.78vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -13,25 +13,174 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 65px;
+  margin-right: 3.39vw;
   justify-content: space-between;
-  padding-top: 24.5px;
-  padding-bottom: 24.5px;
+  padding-top: 1.27vw;
+  padding-bottom: 1.27vw;
 }
-.container .form-group .form-title {
+.container .form-group legend {
   text-align: center;
-  font-size: 18px;
+  font-size: 0.94vw;
+  color: #000000;
+}
+.container .form-group .form-control {
+  width: 17.45vw;
+  height: 1.77vw;
+  font-size: 0.73vw;
 }
 .container .form-group .form-button {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.container .form-group .form-button .btn {
+  width: 17.45vw;
+  height: 2.34vw;
+  background-color: #0D9B42;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0.21vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .form-group .form-button .btn:hover {
+  background-color: #02bd4b;
+}
 .container .form-group .form-button .annotation {
   text-align: center;
-  padding-top: 14px;
+  padding-top: 0.73vw;
+  font-size: 0.63vw;
 }
 .container .form-image img {
-  width: 676px;
+  width: 35.21vw;
   height: auto;
+}
+
+@media all and (max-width: 1366px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85.316vw;
+    padding-right: 1.092vw;
+    padding-left: 1.092vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4.746vw;
+    justify-content: space-between;
+    padding-top: 1.778vw;
+    padding-bottom: 1.778vw;
+  }
+  .container .form-group legend {
+    text-align: center;
+    font-size: 1.316vw;
+    color: #000000;
+  }
+  .container .form-group .form-control {
+    width: 24.43vw;
+    height: 2.478vw;
+    font-size: 1.022vw;
+  }
+  .container .form-group .form-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .form-group .form-button .btn {
+    width: 24.43vw;
+    height: 3.276vw;
+    background-color: #0D9B42;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0.294vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .form-group .form-button .btn:hover {
+    background-color: #02bd4b;
+  }
+  .container .form-group .form-button .annotation {
+    text-align: center;
+    padding-top: 1.022vw;
+    font-size: 0.882vw;
+  }
+  .container .form-image img {
+    width: 49.294vw;
+    height: auto;
+  }
+}
+@media all and (max-width: 415px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 91.41vw;
+    padding-right: 1.17vw;
+    padding-left: 1.17vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5.085vw;
+    justify-content: space-between;
+    padding-top: 1.905vw;
+    padding-bottom: 1.905vw;
+  }
+  .container .form-group legend {
+    text-align: center;
+    font-size: 1.41vw;
+    color: #000000;
+  }
+  .container .form-group .form-control {
+    width: 26.175vw;
+    height: 2.655vw;
+    font-size: 1.095vw;
+  }
+  .container .form-group .form-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .form-group .form-button .btn {
+    width: 26.175vw;
+    height: 3.51vw;
+    background-color: #0D9B42;
+    color: #ffffff;
+    font-size: 1.41vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0.315vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .form-group .form-button .btn:hover {
+    background-color: #02bd4b;
+  }
+  .container .form-group .form-button .annotation {
+    text-align: center;
+    padding-top: 1.095vw;
+    font-size: 0.945vw;
+  }
+  .container .form-image img {
+    width: 52.815vw;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
