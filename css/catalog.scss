@@ -1,36 +1,146 @@
+body {
+    font-family: Arial !important;
+}
+
+.advantages-title {
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 59.38vw;
+    margin: auto;
+}
+
 .advantages-container {
     display: flex;
     align-items: center;
     flex-direction: column;
 
-    .advantages-title {
-        font-size: 1.25vw;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    
     .advantages-items {
-        width: 50.99vw;
+        width: 59.38vw;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        justify-content: center;
-        
+        margin-top: 3vw;
+
+
         .advantages-item {
             display: flex;
             flex-direction: column;
+            align-items: center;
             width: 17.29vw;
-            height: auto;
+            height: 11.67vw;
+            margin-top: 0.83vw;
             text-decoration: none;
+            border-radius: 1.04vw;
+            transition: 400ms;
 
-            .item-icon{
+            .item-icon {
                 width: 4.32vw;
                 height: 4.32vw;
+                margin-top: 1.51vw;
+                margin-bottom: 0.83vw;
+                transition: 400ms;
             }
-            
+
             .item-name {
-                
+                text-align: center;
+                font-size: 0.78vw;
+                font-weight: 700;
+                color: #000000;
             }
+        }
+    }
+
+    .advantages-item:hover {
+        background: rgba(255, 255, 255, 0.22);
+        box-shadow: 0 0 0.52vw 0.52vw rgba(0, 0, 0, 0.10);
+    }
+
+    .advantages-item:hover .item-icon {
+        opacity: 80%;
+    }
+
+}
+
+@media all and (max-width: 1366px) {
+    $coefficient: 1.4;
+
+    .advantages-title {
+        font-size: 1.25vw * $coefficient;
+        width: 59.38vw * $coefficient;
+    }
+
+    .advantages-container {
+
+        .advantages-items {
+            width: 59.38vw * $coefficient;
+            margin-top: 3vw * $coefficient;
+
+
+            .advantages-item {
+                width: 17.29vw * $coefficient;
+                height: 11.67vw * $coefficient;
+                margin-top: 0.83vw * $coefficient;
+                border-radius: 1.04vw * $coefficient;
+
+                .item-icon {
+                    width: 4.32vw * $coefficient;
+                    height: 4.32vw * $coefficient;
+                    margin-top: 1.51vw * $coefficient;
+                    margin-bottom: 0.83vw * $coefficient;
+                }
+
+                .item-name {
+                    font-size: 0.78vw * $coefficient;
+                }
+            }
+        }
+
+        .advantages-item:hover {
+            background: rgba(255, 255, 255, 0.22);
+            box-shadow: 0 0 0.52vw * $coefficient 0.52vw * $coefficient rgba(0, 0, 0, 0.10);
+        }
+    }
+}
+
+@media all and (max-width: 415px) {
+    $coefficient: 1.4;
+
+    .advantages-title {
+        font-size: 1.25vw * $coefficient;
+        width: 59.38vw * $coefficient;
+    }
+
+    .advantages-container {
+
+        .advantages-items {
+            width: 59.38vw * $coefficient;
+            margin-top: 3vw * $coefficient;
+
+
+            .advantages-item {
+                width: 17.29vw * $coefficient;
+                height: 11.67vw * $coefficient;
+                margin-top: 0.83vw * $coefficient;
+                border-radius: 1.04vw * $coefficient;
+
+                .item-icon {
+                    width: 4.32vw * $coefficient;
+                    height: 4.32vw * $coefficient;
+                    margin-top: 1.51vw * $coefficient;
+                    margin-bottom: 0.83vw * $coefficient;
+                }
+
+                .item-name {
+                    font-size: 0.78vw * $coefficient;
+                }
+            }
+        }
+
+        .advantages-item:hover {
+            background: rgba(255, 255, 255, 0.22);
+            box-shadow: 0 0 0.52vw * $coefficient 0.52vw * $coefficient rgba(0, 0, 0, 0.10);
         }
     }
 }
