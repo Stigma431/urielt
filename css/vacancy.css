@@ -1,0 +1,114 @@
+.karera-title {
+  font-size: 1.25vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 59.38vw;
+  margin: auto;
+  margin-top: 7.19vw;
+}
+.karera-title span {
+  color: #000;
+  font-size: 0.94vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+}
+
+.vacancy-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3.07vw;
+}
+.vacancy-wrapper .vacancy-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 0.94vw;
+}
+.vacancy-wrapper .vacancy-items .vacancy-item {
+  display: flex;
+  align-items: center;
+  padding: 0.42vw 1.09vw;
+  background-color: #0D9B42;
+  border-radius: 0.21vw;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 0.68vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: 400ms;
+}
+.vacancy-wrapper .vacancy-items .vacancy-item img {
+  margin-right: 1.09vw;
+  width: 2.66vw;
+  height: 2.66vw;
+}
+.vacancy-wrapper .vacancy-items .vacancy-item:hover {
+  box-shadow: 0px 0px 0.52vw 0.52vw rgba(0, 0, 0, 0.1);
+}
+.vacancy-wrapper .vacancy-image {
+  width: 29.69vw;
+  height: 27.45vw;
+}
+
+@media all and (max-width: 1366px) {
+  .karera-title {
+    font-size: 1.75vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 83.132vw;
+    margin: auto;
+    margin-top: 10.066vw;
+  }
+  .karera-title span {
+    color: #000;
+    font-size: 1.316vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: none;
+  }
+  .vacancy-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4.298vw;
+  }
+  .vacancy-wrapper .vacancy-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1.316vw;
+  }
+  .vacancy-wrapper .vacancy-items .vacancy-item {
+    display: flex;
+    align-items: center;
+    padding: 0.588vw 1.526vw;
+    background-color: #0D9B42;
+    border-radius: 0.294vw;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 0.952vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: 400ms;
+  }
+  .vacancy-wrapper .vacancy-items .vacancy-item img {
+    margin-right: 1.526vw;
+    width: 3.724vw;
+    height: 3.724vw;
+  }
+  .vacancy-wrapper .vacancy-items .vacancy-item:hover {
+    box-shadow: 0px 0px 0.728vw 0.728vw rgba(0, 0, 0, 0.1);
+  }
+  .vacancy-wrapper .vacancy-image {
+    width: 41.566vw;
+    height: 38.43vw;
+  }
+}/*# sourceMappingURL=vacancy.css.map */

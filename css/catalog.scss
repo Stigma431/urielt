@@ -8,6 +8,7 @@ body {
     text-transform: uppercase;
     width: 59.38vw;
     margin: auto;
+    margin-top: 7.19vw;
 }
 
 .advantages-container {
@@ -43,6 +44,42 @@ body {
                 transition: 400ms;
             }
 
+            .item-icon_1 {
+                background: url(../images/Ellipse\ 1.svg) no-repeat ;
+            }
+
+            .item-icon_2 {
+                background: url(../images/Ellipse\ 1\ \(1\).svg) no-repeat ;
+            }
+
+            .item-icon_3 {
+                background: url(../images/Ellipse\ 1\ \(2\).svg) no-repeat ;
+            }
+
+            .item-icon_4 {
+                background: url(../images/Ellipse\ 1\ \(3\).svg) no-repeat ;
+            }
+
+            .item-icon_5 {
+                background: url(../images/Ellipse\ 1\ \(4\).svg) no-repeat ;
+            }
+
+            .item-icon_6 {
+                background: url(../images/Ellipse\ 1\ \(5\).svg) no-repeat ;
+            }
+
+            .item-icon_7 {
+                background: url(../images/Ellipse\ 1\ \(6\).svg) no-repeat ;
+            }
+
+            .item-icon_8 {
+                background: url(../images/Ellipse\ 1\ \(7\).svg) no-repeat ;
+            }
+
+            .item-icon_9 {
+                background: url(../images/Ellipse\ 1\ \(8\).svg) no-repeat ;
+            }
+
             .item-name {
                 text-align: center;
                 font-size: 0.78vw;
@@ -50,6 +87,10 @@ body {
                 color: #000000;
             }
         }
+    }
+
+    .advantages-item:hover .item-icon_1 {
+        background: url(../images/Ellipse\ 1\ \(1\).svg) no-repeat;
     }
 
     .advantages-item:hover {
@@ -68,40 +109,105 @@ body {
 
     .advantages-title {
         font-size: 1.25vw * $coefficient;
+        font-weight: bold;
+        text-transform: uppercase;
         width: 59.38vw * $coefficient;
+        margin: auto;
+        margin-top: 7.19vw * $coefficient;
     }
-
+    
     .advantages-container {
-
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
         .advantages-items {
             width: 59.38vw * $coefficient;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
             margin-top: 3vw * $coefficient;
-
-
+    
+    
             .advantages-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 width: 17.29vw * $coefficient;
                 height: 11.67vw * $coefficient;
                 margin-top: 0.83vw * $coefficient;
+                text-decoration: none;
                 border-radius: 1.04vw * $coefficient;
-
+                transition: 400ms;
+    
                 .item-icon {
                     width: 4.32vw * $coefficient;
                     height: 4.32vw * $coefficient;
                     margin-top: 1.51vw * $coefficient;
                     margin-bottom: 0.83vw * $coefficient;
+                    transition: 400ms;
                 }
-
+    
+                .item-icon_1 {
+                    background: url(../images/Ellipse\ 1.svg) no-repeat ;
+                }
+    
+                .item-icon_2 {
+                    background: url(../images/Ellipse\ 1\ \(1\).svg) no-repeat ;
+                }
+    
+                .item-icon_3 {
+                    background: url(../images/Ellipse\ 1\ \(2\).svg) no-repeat ;
+                }
+    
+                .item-icon_4 {
+                    background: url(../images/Ellipse\ 1\ \(3\).svg) no-repeat ;
+                }
+    
+                .item-icon_5 {
+                    background: url(../images/Ellipse\ 1\ \(4\).svg) no-repeat ;
+                }
+    
+                .item-icon_6 {
+                    background: url(../images/Ellipse\ 1\ \(5\).svg) no-repeat ;
+                }
+    
+                .item-icon_7 {
+                    background: url(../images/Ellipse\ 1\ \(6\).svg) no-repeat ;
+                }
+    
+                .item-icon_8 {
+                    background: url(../images/Ellipse\ 1\ \(7\).svg) no-repeat ;
+                }
+    
+                .item-icon_9 {
+                    background: url(../images/Ellipse\ 1\ \(8\).svg) no-repeat ;
+                }
+    
                 .item-name {
+                    text-align: center;
                     font-size: 0.78vw * $coefficient;
+                    font-weight: 700;
+                    color: #000000;
                 }
             }
         }
-
+    
+        .advantages-item:hover .item-icon_1 {
+            background: url(../images/Ellipse\ 1\ \(1\).svg) no-repeat;
+        }
+    
         .advantages-item:hover {
             background: rgba(255, 255, 255, 0.22);
             box-shadow: 0 0 0.52vw * $coefficient 0.52vw * $coefficient rgba(0, 0, 0, 0.10);
         }
-    }
+    
+        .advantages-item:hover .item-icon {
+            opacity: 80%;
+        }
+    
+    }    
 }
 
 @media all and (max-width: 415px) {
@@ -110,6 +216,7 @@ body {
     .advantages-title {
         font-size: 1.25vw * $coefficient;
         width: 59.38vw * $coefficient;
+        margin-top: 7.19vw * $coefficient;
     }
 
     .advantages-container {
